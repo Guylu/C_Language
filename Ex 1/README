@@ -1,0 +1,19 @@
+c_ex1
+guy_lutsker
+207029448
+######
+
+this program will preform discrete convolution based on values it gets from the user.
+the user will feed the program 2 arrays and a number.
+the first array is the sequence of volumes in each iteration,
+while the second array is the sequence of the amplifier.
+the number in the number of resonating chambers the experiment is being conducted in.
+
+the program will run the convolution upon the series's and will output a visual result to the user.
+my mathematical convolution works in O(N^2) as required.
+im quite certain that i could have reached a running time of O(N*LOG(N)) have i used discrete fourier transform to
+calculate the polynomial multiplication, but unfortunately i had a moed b to study for:(
+
+the graphical results will consist of numbers describing a rounded result of the experiment, and based on the
+max value in the result will print a number of stars(when it is normalized such that the max num of stars in 20).
+and this way the mathematical convolution is graphically displayed to the user.
