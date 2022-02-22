@@ -1,0 +1,19 @@
+c_ex3
+guy_lutsker
+207029448
+######
+this project consists of two parts, the static library infi.c, and the program NumaricAnalyzer.
+the library hols function to calculate integrals and derivatives of functions.
+the program will use the library and give certain information about certain functions.
+the input of the program is as follows: NumericalAnalyzer <function number> <a> <b> <N> <x0> <h>
+when:
+a: is the number of the function from the function list
+b: is the point of "start" in the integral calculation
+N: number or partitions in the integral by reiman
+x0: point to calc derivative
+h: the "approximation" of the point to derive
+
+if it will find an error it will print "Invalid input\n"
+however if everything goes correctly it will print our info in this manner:
+Integral: XXX
+Derivative: XXX

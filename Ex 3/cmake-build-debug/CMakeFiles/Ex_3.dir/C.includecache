@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/University/Year 1/Summer Semester/C/EX's/Ex 3/NumericalAnalyzer.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+math.h
+-
+infi.h
+/cygdrive/c/University/Year 1/Summer Semester/C/EX's/Ex 3/infi.h
+
+/cygdrive/c/University/Year 1/Summer Semester/C/EX's/Ex 3/infi.h
+math.h
+-
+
