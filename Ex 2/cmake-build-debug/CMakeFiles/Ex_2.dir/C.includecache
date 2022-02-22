@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/University/Year 1/Summer Semester/C/EX's/Ex 2/TreeAnalyzer.c
+stdio.h
+-
+stdlib.h
+-
+queue.h
+/cygdrive/c/University/Year 1/Summer Semester/C/EX's/Ex 2/queue.h
+errno.h
+-
+limits.h
+-
+string.h
+-
+
+/cygdrive/c/University/Year 1/Summer Semester/C/EX's/Ex 2/queue.h
+
